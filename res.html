@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REsponsive site</title>
+
+    <style>
+
+        main{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap:20px;
+            justify-content: center;
+
+        }
+
+        .box{
+            background-color:beige;
+            border:1px solid rgba(255, 200, 0, 0.686);
+            border-radius: 10px;
+            padding:12px;
+            font-family: verdana;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .box img{
+            width:170px;
+        }
+
+
+        @media  screen and (max-width:805px) {
+            main{
+                grid-template-columns: repeat(4, 160px);
+                grid-auto-rows:300px ;
+            }
+            .box{
+                font-size: 0.75em;
+            }
+            .box img{
+                width:125px;
+            }
+        }
+
+
+
+        @media screen and (max-width:450px){
+            main{
+                grid-template-columns: repeat(2, 150px);
+                grid-auto-rows: 220px;
+            }
+            .box{
+                font-size: 0.6em;
+            }
+            .box img{
+                width:90px;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <main>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 1</h3>
+            <p>Price:100</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 2</h3>
+            <p>Price:200</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 3</h3>
+            <p>Price:300</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 4</h3>
+            <p>Price:400</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 5</h3>
+            <p>Price:500</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 6</h3>
+            <p>Price:600</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 7</h3>
+            <p>Price:700</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 8</h3>
+            <p>Price:800</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 9</h3>
+            <p>Price:900</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 10</h3>
+            <p>Price:1000</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 11</h3>
+            <p>Price:1100</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 12</h3>
+            <p>Price:1200</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+        <div class="box">
+            <img src="assets/vegetable.png" alt="">
+            <h3>Food Item 13</h3>
+            <p>Price:1300</p>
+            <p>Foods is important for out health and life, some foods are very very neccearssy to out life</p>
+        </div>
+    </main>
+
+
+</body>
+</html>
