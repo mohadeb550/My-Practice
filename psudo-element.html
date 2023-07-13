@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo elements</title>
+
+    <style>
+        *{
+            font-family: cursive;
+        }
+    
+    h2:nth-child(2)::before{
+        content: " Grapes";
+        color:orange;
+        background-color: black;
+        padding:0px 6px;
+        margin-right: 10px;
+    }
+
+    h2:nth-child(3)::after{
+        content:url("js.png");
+    }
+    h2:nth-child(3)::first-letter{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+    p::first-letter{
+        font-size: 35px;
+    }
+   ::selection{
+    color:rgb(255, 149, 0);
+    background-color: rgb(6, 4, 0);
+   }
+
+    </style>
+
+</head>
+<body>
+    
+<h2>Heading 1</h2>
+<h2>Heading 2</h2>
+<h2>Javascript</h2>
+
+<p>Tomato Grapes Mango Watermelon</p>
+
+
+</body>
+</html>

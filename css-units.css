@@ -1,0 +1,21 @@
+
+*{
+    font-family: cursive;
+}
+
+
+
+
+
+#parent{
+    font-size: 50px; 
+    width:600px;
+    background-color: bisque;
+}
+
+#child{
+    width: 2em;
+    background-color: rgb(177, 52, 163);
+}
+
+

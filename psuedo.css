@@ -1,0 +1,87 @@
+
+body{
+    height: 2500px;
+}
+
+
+*{
+    font-family: verdana;
+}
+
+
+
+input{
+    padding:8px 35px 8px 8px;
+}
+input:focus{
+    outline-color:green;
+    border-color:green;
+    color:green;
+}
+
+a:visited{
+    color:red;
+}
+
+li:nth-child(4){
+    color:rgb(214, 57, 0);
+}
+
+
+section {
+    background-color: rgb(94, 173, 176);
+    width:600px; height: 600px;
+    position: relative;
+}
+
+.div0{
+    width: 170px;height: 170px;
+    background-color:darkblue;
+    border-radius: 50%;
+    position: absolute;
+    left:100px;top:205px;
+    z-index: 1;
+}
+
+.div1{
+    background-color: rgb(217, 88, 13);
+    width:200px; height: 200px;
+    border-radius: 50%;
+    position: relative;
+    bottom:0;
+}
+.div2{
+    background-color: rgb(157, 211, 50);
+    width:180px; height: 180px;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 2;
+}
+
+
+.icon{
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    position: fixed;
+    left:800px;
+    top:300px;
+}
+
+.fa-microphone{
+    color:rgb(17, 152, 17);
+    position: absolute;
+    right: 15px;top:10px;
+}
+
+
+.Te{
+    width:200px;
+    height: 200px;
+    background-color: orange;
+
+}
+h2{
+    position: relative;
+    bottom:38px;
+}
